@@ -14,9 +14,6 @@ public class loop3 {
             System.out.println("\nb) Alternate Number Series:");
             alternateNumberSeries(12);
 
-            System.out.println("\nc) Custom Summation Series:");
-            summationSeries(11);
-
             System.out.println("\nd) Decreasing Number Series:");
             decreasingSeries(10);
 
@@ -54,19 +51,6 @@ public class loop3 {
                     System.out.print(even + " ");
                     even++;
                 }
-            }
-            System.out.println();
-        }
-
-        // c) Custom Summation Series
-        public static void summationSeries(int n) {
-            int sum = 1;
-            int increment = 1;
-            System.out.print(sum + " ");
-            for (int i = 2; i <= n; i++) {
-                sum += increment;
-                System.out.print(sum + " ");
-                increment++;
             }
             System.out.println();
         }
